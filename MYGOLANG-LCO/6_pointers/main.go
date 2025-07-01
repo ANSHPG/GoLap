@@ -20,3 +20,5 @@ func main() {
 	*ptr = *ptr * 2
 	fmt.Printf("\n%d : %p", *ptr, ptr)
 }
+
+// git config --global core.autocrlf true
