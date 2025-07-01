@@ -18,6 +18,6 @@ func main() {
 	// comma ok || err err
 
 	input, _ := reader.ReadString('\n')
-	fmt.Printf("Lap time: %d", input)
+	fmt.Printf("Lap time: %s", input)
 	fmt.Printf("type: %T", input)
 }
