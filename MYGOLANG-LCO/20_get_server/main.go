@@ -38,6 +38,19 @@ func PerformGetRequest() {
 
 	*/
 	var responseString strings.Builder
+
+	/*
+		response.body =>
+		You're calling a restaurant and asking for their menu. After some time, they start reading it out slowly, line by line over the phone.
+
+		That live stream of words from the other end?
+		That's like response.Body.
+
+		It's a stream — not the full content at once — it's like reading from a file or pipe.
+
+		content, err := io.ReadAll(response.Body)
+
+	*/
 	content, err2 := io.ReadAll(response.Body)
 	triggerPanic(err2)
 	byteCount, _ := responseString.Write(content)
