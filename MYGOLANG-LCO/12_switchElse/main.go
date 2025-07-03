@@ -12,7 +12,7 @@ func main() {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	algorithm := r.Intn(6) + 1
 	fmt.Println(algorithm)
-
+	//  unlike other language we dont add break here, else we add fallthrough to excite it!
 	switch algorithm {
 	case 1:
 		fmt.Println("Dice val is 1 and yo can open")
