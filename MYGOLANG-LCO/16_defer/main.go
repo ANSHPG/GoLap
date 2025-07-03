@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+	Defer => Basically like other lngauages GO executes line by line, when we use the keyword defer along side a line, it sends it to end of the execution stack of a function, and during multiple defers it behaves as LIFO so the last defer line exeucutes first in the defer list.
+*/
+
 func main() {
 	fmt.Println("Defer the Odds!")
 
