@@ -1,0 +1,6 @@
+07-05-25 2:24 +5:30 GMT
+OS: Linix 
+DISTRO: Zorin Os 17.3 XFCE Debian/Ubuntu
+
+It works on Linux ,and fortunately both 32 and 64 bits work and the die facility too work
+It just that we had to execute it from terminal
